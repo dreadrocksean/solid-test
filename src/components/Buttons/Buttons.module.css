@@ -1,0 +1,24 @@
+.root {
+  /* width: 10rem; */
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+}
+
+button {
+  background: #aac8ff;
+  height: 2rem;
+  min-width: 3.3rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button:hover {
+  background: rgb(238, 168, 238);
+}
+
+button.selected {
+  background: rgb(238, 134, 134);
+}
